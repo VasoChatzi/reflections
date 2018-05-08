@@ -2,6 +2,12 @@ These are my reflections.
 
 Plus, this is the file I am going to use for version control practice.
 
+* How can you use the commands git log and git diff to view the history of files?
+As it says, log gives all the changes, diff is between two different commit iD's.
+
+* How might using version control make you more confident to make changes that could 
+break something?
+It is easier to make changes, since I can always undo them.
 
 
 * How did viewing a diff between two versions of a file help you see the bug that was introduced?

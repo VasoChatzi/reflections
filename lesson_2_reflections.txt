@@ -2,8 +2,28 @@
 Git starts a new repository for the directory. 
 Otherwise, where would we start? It needs to know.
 
+* How can you use the staging area to make sure you have one commit per logical change?
+Just put only the changes corresponding to the logical change in the staging
+area and commit them before proceeding.
+
 * How is the staging area different from the working directory and the repository? What value do you think it offers?
 Working directory is just the directory you work in, nothing complicated.
 The repository is something that contains all your files and history, that is a lot of info.
 The staging area is something that keeps your uncommitted changes so far.
 
+* What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+When you need to release a version, and continue working on a new version. The old
+branch helps reproduce the customer's problem.
+
+* How do the diagrams help you visualize the branch structure?
+I can see exactly where the branching took place and which changes are reachable. 
+
+* What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+Hopefully you get files that contain all the changes from both branches. There might be conflict.
+This is why we repressent it with  2 parents, because it incorporates both.
+
+* What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: it is much easier
+Cons: sometimes the merge is wrong and it doesn't warn you!
