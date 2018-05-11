@@ -32,4 +32,7 @@ and what would be harder?
 * When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you ar working with other people so that everybody can see your changes
+and the master stays clean. Also, when uou are working on two different changes 
+at the same time.
+
